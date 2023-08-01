@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Pacifico&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------------HEADER-------------*/
+header {
+    background-color: rgb(0, 0, 0);
+    height: 68px;
+
+
+}
+
+header h1 img {
+    width: 8%;
+    height: 13%;
+    margin: 0;
+    padding: 0;
+}
+
+
+header h1 span {
+    color: rgb(233, 233, 208);
+}
+
+header nav {
+    background-color: rgb(0, 0, 0);
+}
+
+header nav ul li {
+    list-style: none;
+    text-align: end;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 200;
+    font-style: normal;
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+
+header nav ul li a {
+    color: rgb(228, 205, 164);
+}
+
+.container-fluid{
+    height: 30px;
+}
+
+header .container-fluid .navbar-brand {
+    color: rgb(228, 205, 164);
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+}
+
+header .navbar-collapse .nav-item .nav-link {
+    color: white;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+/*---- class de nav ul ----*/
+
+.alinear {
+    margin: 0;
+    padding: 0;
+}
+
+.alinear li a {
+    text-decoration: none;
+}
+
+/*--------------MAIN---------------*/
+.primerasec {
+    width: 100%;
+    height: calc(100vh - 130px);
+    background-image: url(../img/mesafondo2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.primerasec h2 {
+    color: rgb(228, 205, 164);
+    font-size: 20px;
+    text-align: center;
+    border: 1px rgb(29, 23, 12) double;
+    background-color: black;
+
+}
+
+.primerasec p {
+    color: rgb(228, 205, 164);
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+    margin: 50px 20px 20px 20px;
+}
+
+
+
+
+.primerasec .Since {
+    font-size: 25px;
+}
+
+.experienciatitulo h2 {
+    color: black;
+    font-size: 50px;
+    background-color: rgb(228, 205, 164);
+    text-align: center;
+    margin: 50px 0px 110px 0px;
+
+}
+
+.experiencia {
+    display: flex;
+    align-items: center;
+}
+
+.experiencia p {
+    color: black;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+    margin: 10px 40px 10px 40px;
+    background-color: #cd863f28;
+}
+
+.experiencia img {
+    width: 500px;
+    height: 330px;
+}
+
+
+.unqueso h2 {
+
+    color: black;
+    font-size: 50px;
+    font-weight: 50px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 100px 20px 10px 20px;
+
+}
+
+.unqueso div h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: initial;
+    color: black;
+    font-size: 20px;
+    font-weight: 5px;
+}
+
+
+.unqueso div img {
+    height: 150px;
+    width: 190px;
+    margin-bottom: 20px;
+    padding: 10px 5px 10px 5px;
+}
+
+.unqueso .card-flex div {
+    width: 250px;
+    height: 300px;
+    border: 2pix solid black;
+    text-align: center;
+    background-color: rgb(228, 205, 164);
+    color: black;
+    margin: 20px;
+    display: inline-block;
+    -webkit-box-shadow: -16px 14px 21px 0px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: -16px 14px 21px 0px rgba(0, 0, 0, 0.77);
+    box-shadow: -16px 14px 21px 0px rgba(0, 0, 0, 0.77);
+
+}
+
+.unqueso .card-flex {
+    height: 450px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+}
+
+.card-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.unqueso .boton:hover{
+    background-color: gray;
+    color: white;
+
+}
+
+.boton {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-style: italic;
+    font-weight: 15px;
+}
+
+.grid-galeria {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 350px 200px 250px;
+    gap: 5px;
+    margin: 300px 5px 20px 5px;
+    padding: 50px 20px 20px 20px;
+}
+
+.grid-pics:hover{
+    -webkit-box-shadow: 10px 15px 101px 37px rgba(235,206,148,1);
+-moz-box-shadow: 10px 15px 101px 37px rgba(235,206,148,1);
+box-shadow: 10px 15px 101px 37px rgba(235,206,148,1);
+}
+
+.grid-galeria div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-pics {
+    -webkit-box-shadow: -16px 14px 21px 0px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: -16px 14px 21px 0px rgba(0, 0, 0, 0.77);
+    box-shadow: -16px 14px 21px 0px rgba(0, 0, 0, 0.77);
+}
+
+.img-0 {
+    grid-column: 1/ span 3;
+}
+
+.img-3 {
+    grid-row: span 2;
+}
+
+@media screen and (max-width: 690px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+
+/*--------------FOOTER--------------*/
+
+.subredes {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+}
+
+.redes img {
+    height: 35px;
+    width: 35px;
+
+}
+
+
+@media screen and (max-width:1200px) {
+    .unqueso .card-flex {
+        width: 300px;
+        height: 450px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 350px;
+    }
+}
+
+
+@media screen and (max-width:1100px) {
+    .grid-galeria {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 700px;
+    }
+
+    .grid-pics {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .unqueso .card-flex {
+        width: 100px;
+        height: 1050px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .experiencia {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .experiencia p{
+        font-size: 20px;
+    }
+
+    .navbar-light .container-fluid .navbar-toggler{
+        background-color: rgb(26, 24, 24);
+    }
+}
+
+    @media screen and (max-width: 620px) {
+        .grid-galeria {
+            grid-template-columns: 1fr;
+            grid-auto-rows: 200px;
+        }
+
+        .grid-pics {
+            grid-column: span 1;
+            grid-row: span 1;
+        }
+
+    }
+
+    @media screen and (max-width:540px) {
+        .unqueso .card-flex {
+            width: 100px;
+            height: 2450px;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    
+        .experiencia p{
+            font-size: 14px;
+        }
+
+    }
