@@ -1,0 +1,88 @@
+@media screen and (max-width: 690px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    main .unqueso .card-flex {
+        width: 300px;
+        height: 450px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 350px;
+    }
+}
+
+
+@media screen and (max-width:1100px) {
+    .navbar-light .container-fluid .navbar-toggler{
+        background-color: $color-primario;
+    }
+    .experiencia {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .experiencia p{
+        font-size: 20px;
+    }   
+    .unqueso .card-flex {
+        width: 100px;
+        height: 1050px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-galeria {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 700px;
+    }
+    .grid-pics {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+.footercontainer .iconos{
+    height: 215px;
+}
+    .footercontainer .sobrenosotros{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 12px;
+    }
+    .sobrenosotros h2{
+        font-size: 17px;
+    }
+}
+
+    @media screen and (max-width: 620px) {
+        .grid-galeria {
+            grid-template-columns: 1fr;
+            grid-auto-rows: 200px;
+        }
+
+        .grid-pics {
+            grid-column: span 1;
+            grid-row: span 1;
+        }
+
+        .footercontainer .sobrenosotros{
+            display: none;
+        }
+        .footercontainer .iconos{
+            height: 130px;
+        }
+        }
+
+
+    @media screen and (max-width:540px) {
+        .experiencia p{
+            font-size: 14px;
+        }
+        .unqueso .card-flex {
+            width: 100px;
+            height: 2450px;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }

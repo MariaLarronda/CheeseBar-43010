@@ -13,8 +13,6 @@
 header {
     background-color: rgb(0, 0, 0);
     height: 68px;
-
-
 }
 
 header h1 img {
@@ -25,31 +23,10 @@ header h1 img {
 }
 
 
-header h1 span {
-    color: rgb(233, 233, 208);
-}
-
 header nav {
     background-color: rgb(0, 0, 0);
 }
 
-header nav ul li {
-    list-style: none;
-    text-align: end;
-    display: inline-block;
-    font-size: 20px;
-    font-weight: 200;
-    font-style: normal;
-    margin: 0px 10px 0px 10px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-
-}
-
-header nav ul li a {
-    color: rgb(228, 205, 164);
-}
 
 .container-fluid{
     height: 30px;
@@ -69,16 +46,6 @@ header .navbar .navbar-nav .nav-item .nav-link {
     color: white;
 }
 
-/*---- class de nav ul ----*/
-
-.alinear {
-    margin: 0;
-    padding: 0;
-}
-
-.alinear li a {
-    text-decoration: none;
-}
 
 /*--------------MAIN---------------*/
 .primerasec {
@@ -199,7 +166,7 @@ header .navbar .navbar-nav .nav-item .nav-link {
     flex-wrap: wrap;
 }
 
-.unqueso .boton:hover{
+.boton:hover{
     background-color: gray;
     color: white;
 
@@ -281,6 +248,11 @@ box-shadow: 10px 15px 101px 37px rgba(235,206,148,1);
     margin-right: 48px;
 }
 
+.iframe{
+    width: 400px;
+    height: 300px; 
+    border: 0;
+}
 
 
 @media screen and (max-width:1200px) {
@@ -362,14 +334,14 @@ box-shadow: 10px 15px 101px 37px rgba(235,206,148,1);
 
 
     @media screen and (max-width:540px) {
-        .unqueso .card-flex {
+        main .experienciacheesebar .experiencia p{
+            font-size: 14px;
+        }
+        
+        main .unqueso .card-flex {
             width: 100px;
             height: 2450px;
             grid-template-columns: repeat(1, 1fr);
         }
     
-        .experiencia p{
-            font-size: 14px;
-        }
-
     }

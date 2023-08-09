@@ -1,0 +1,37 @@
+header {
+    background-color: $color-primario;
+    height: 68px;
+
+
+    nav {
+        background-color: $color-primario;
+
+        .container-fluid {
+            height: 30px;
+        }
+
+        a {
+            .container-fluid .navbar-brand {
+                color: $color-secundario;
+                font-family: 'Cinzel', serif;
+                font-size: 25px;
+            }
+
+            .navbar-collapse .nav-item .nav-link {
+                color: $color-terciario;
+            }
+
+            .navbar .navbar-nav .nav-item .nav-link {
+                color: $color-terciario
+            }
+        }
+    }
+    h1 {
+        img {
+            width: 8%;
+            height: 13%;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
