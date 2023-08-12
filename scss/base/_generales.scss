@@ -8,26 +8,4 @@
     padding: 0;
     box-sizing: border-box;
 }
-main .boton {
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    padding: 10px;
-    font-style: italic;
-    font-weight: 15px;
-    &:hover{
-        background-color: gray;
-        color: white;
-    }
-}
 
-.grid-pics {
-    -webkit-box-shadow: -16px 14px 21px 0px rgba(0, 0, 0, 0.77);
-    -moz-box-shadow: -16px 14px 21px 0px rgba(0, 0, 0, 0.77);
-    box-shadow: -16px 14px 21px 0px rgba(0, 0, 0, 0.77);
-    &:hover{
-        -webkit-box-shadow: 10px 15px 101px 37px rgba(235,206,148,1);
-        -moz-box-shadow: 10px 15px 101px 37px rgba(235,206,148,1);
-        box-shadow: 10px 15px 101px 37px rgba(235,206,148,1);
-    }
-}
